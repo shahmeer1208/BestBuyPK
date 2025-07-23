@@ -23,7 +23,8 @@
     <form id="admin-form">
       <input type="text" id="product-name" placeholder="Product Name" required>
       <input type="number" id="product-price" placeholder="Price" required>
-      <input type="text" id="product-image" placeholder="Image URL (or images/name.jpg)" required>
+      <input type="file" id="product-image" accept="image/*" required>
+      <input type="color" id="product-color" required>
       <button type="submit" class="btn">Add Product</button>
     </form>
 
